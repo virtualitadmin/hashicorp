@@ -3,6 +3,7 @@ source "azure-arm" "ubuntu" {
   # client_secret                     = "XXXX"
   # tenant_id                         = "XXXX"
   # subscription_id                   = "XXXX"
+
   managed_image_resource_group_name = "packer_images"
   managed_image_name                = "packer-ubuntu-azure-{{timestamp}}"
 
@@ -17,7 +18,7 @@ source "azure-arm" "ubuntu" {
     Release    = "Latest"
   }
 
-  location = "East US"
+  location = "UK South"
   vm_size  = "Standard_A2"
 }
 
