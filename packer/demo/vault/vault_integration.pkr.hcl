@@ -19,6 +19,6 @@ build {
       "echo \"subscription_id is $subscription_id",
       "echo \"tenant_id is $tenant_id",
       "echo \"client_secret is $client_secret",
-      "echo \"client_id is $client_id",
+      "echo \"client_id is $client_id"
     ]  
 }
