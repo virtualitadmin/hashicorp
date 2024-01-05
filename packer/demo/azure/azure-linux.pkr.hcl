@@ -18,11 +18,13 @@ source "azure-arm" "ubuntu" {
     Release    = "Latest"
   }
 
-  vault_azure_engine {
-    name = "edu_app"
-
   location = "UK South"
   vm_size  = "Standard_A2"
+
+  vault_azure_engine {
+    name = "my-role"
+  }
+  
 }
 
 build {
